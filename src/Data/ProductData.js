@@ -4,7 +4,7 @@ export const ProductData = [
      Name:"Brushed Raglan Sweatshirt",
      Image:"/public/images/img1.png",
      Type:"Sweater",
-     Price:"Rs:800",
+     Price:"800",
      Category:"Female",
     },
     {
@@ -12,7 +12,7 @@ export const ProductData = [
         Name:"Cameryn Sash Tie Dress",
         Image:"/public/images/img3.png",
         Type:"Dress",
-        Price:"Rs:7000",
+        Price:"7000",
         Category:"Female",
        },
        {
@@ -20,7 +20,7 @@ export const ProductData = [
         Name:"Flex Sweatshirt",
         Image:"/public/images/img2.png",
         Type:"Dress",
-        Price:"Rs:3000",
+        Price:"3000",
         Category:"Female",
        },
        {
@@ -28,7 +28,7 @@ export const ProductData = [
         Name:"Flex Sweatpants",
         Image:"/public/images/img7.png",
         Type:"Pant",
-        Price:"Rs:5000",
+        Price:"5000",
         Category:"Female",
        },
        {
@@ -36,7 +36,7 @@ export const ProductData = [
         Name:"Pink Fleece Sweatpants",
         Image:"/public/images/img8.png",
         Type:"Shirt",
-        Price:"Rs:1000",
+        Price:"1000",
         Category:"Male",
        },
        {
@@ -44,7 +44,7 @@ export const ProductData = [
         Name:"Lite Sweatpants",
         Image:"/public/images/img.png",
         Type:"Pant",
-        Price:"Rs:2000",
+        Price:"2000",
         Category:"Kid",
        },
        {
@@ -52,7 +52,7 @@ export const ProductData = [
         Name:"Imperial Alpaca Hoodie",
         Image:"/public/images/img4.png",
         Type:"Jacket",
-        Price:"Rs:1800",
+        Price:"1800",
         Category:"Male",
        },
        {
@@ -60,7 +60,7 @@ export const ProductData = [
         Name:"Flex Push Button Bomber",
         Image:"/public/images/img5.png",
         Type:"Jacket",
-        Price:"Rs:2500",
+        Price:"2500",
         Category:"Male",
        },
        {
@@ -68,7 +68,7 @@ export const ProductData = [
         Name:"Muscle Tank",
         Image:"/public/images/img6.png",
         Type:"T SHirt",
-        Price:"Rs:1000",
+        Price:"1000",
         Category:"Female",
        },
        {
@@ -76,7 +76,7 @@ export const ProductData = [
         Name:"Imperial Alpaca Hoodie",
         Image:"/public/images/img9.png",
         Type:"T SHirt",
-        Price:"Rs:1000",
+        Price:"1000",
         Category:"Female",
        },
     ] 

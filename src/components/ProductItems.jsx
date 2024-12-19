@@ -5,7 +5,7 @@ import ProductCard from './ProductCard'
 const ProductItems = () => {
   return (
     <section className='flex justify-center mt-10'>
-    <div className='flex flex-wrap gap-24 w-[80%]'>
+    <div className='flex flex-wrap gap-24 w-[80%] max-[887px]:justify-center'>
       {
         ProductData.map((item) => (
             <ProductCard 
@@ -19,6 +19,7 @@ const ProductItems = () => {
         ) 
     )
       }
+    
     </div>
     </section>
   )

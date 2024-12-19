@@ -7,12 +7,40 @@ export const Slice = createSlice({
   },
   reducers:{
     addToCart:( state , action)=>{
-     state.data.push(action.payload)
-    }
+      const existingItems = state.data.find((item)=>
+        item.id === action.payload.id
+      );
+      if (existingItems){
+         state.data = state.data.map((item)=>item.id===action.payload.id
+        ?{...item,qty:item.qty+1}
+        :item
+        )
+      }
+      else{
+        state.data.push(action.payload)
+      }
+    },
+    removeCart : (state , action)=>{
+      state.data = state.data.filter((item)=>item.id !== action.payload.id)
+    },
+    incrementQty : (state , action)=>{
+      state.data = state.data.map((item)=>(
+        item.id === action.payload.id ?{
+          ...item , qty : item.qty + 1
+        }:item
+      ))
+    },
+    decrementQty : (state , action)=>{
+      state.data = state.data.map((item)=>(
+        item.id === action.payload.id ?{
+          ...item , qty : item.qty - 1
+        }:item
+      ))
+    },
   },
 })
 
 // Action creators are generated for each case reducer function
-export const {addToCart} = Slice.actions
+export const {addToCart,removeCart,incrementQty,decrementQty} = Slice.actions
 
 export default Slice.reducer
