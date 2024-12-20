@@ -2,10 +2,11 @@ import { useDispatch } from "react-redux"
 import  {addToCart}  from "../redux/slices/cardSlice";
 
 // eslint-disable-next-line react/prop-types
-const ProductCard = ({image,type,name,price,id}) => {
+const ProductCard = ({image,type,name,price,id,handleToast}) => {
     const dispatch = useDispatch();
     const Handle = ()=>{
         dispatch(addToCart({id,name,image,price,type,qty:1}))
+        handleToast(name);
     }
   return (
  

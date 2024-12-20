@@ -12,8 +12,8 @@ const OrderDetail = () => {
     
   return (
     <section className="flex justify-center mt-10 " >
-    <div className="flex justify-between w-[100%] "id="ss">
-      <div className="flex flex-col gap-5">
+    <div className=" w-[90%] flex gap-5 max-[1100px]:flex-col"id="">
+      <div className="flex flex-col w-full  gap-5">
         {
             cartItems.map((item)=>(
                 <OrderCart
@@ -30,10 +30,12 @@ const OrderDetail = () => {
             ))
         }
         </div>
-         <div id="ri" className="w-[30%] flex flex-col gap-6 px-1  ">
+      
+    
+         <div id="ri" className="w-[35%] flex flex-col gap-6 px-1 max-[1100px]:w-[100%] ">
         <h1 className="text-xl font-bold">Order Summary</h1>
         {/* child 1 */}
-        <div className="flex justify-between text-lg font-semibold">
+        <div className="flex justify-between text-lg font-semibold ">
         <p>Quantity</p>
         <p>{totalQty} Product</p>
             
@@ -47,9 +49,8 @@ const OrderDetail = () => {
         {/* button */}
         <button className="text-center bg-[#212121] text-white p-2">Process to Checkout</button>
       
+        </div>
       </div>
-      
-    </div>
     </section>
   )
 }

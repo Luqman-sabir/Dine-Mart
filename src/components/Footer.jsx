@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     
-    <section className="flex flex-col items-center mt-10"  id="hr">
+    <section className="flex flex-col items-center mt-10 h-fit bottom-0"  id="hr">
       
     <div className="flex justify-between w-[80%] gap-4 py-5 max-[700px]:flex-col ">
     <h3  className="text-lg">Copyright © 2024 Dine Market</h3>
