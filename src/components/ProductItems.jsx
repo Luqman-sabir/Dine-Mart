@@ -15,7 +15,7 @@ const ProductItems = () => {
 />
     
     <section className='flex justify-center mt-10'>
-    <div className='flex flex-wrap gap-24 w-[80%] max-[887px]:justify-center'>
+    <div className='flex flex-wrap gap-10 w-[80%] max-[887px]:justify-center'>
       {
        
           ProductData.filter((item)=>{

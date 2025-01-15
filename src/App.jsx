@@ -3,8 +3,12 @@ import Cart from './components/Cart';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ProductItems from './components/ProductItems';
-// import Home from './pages/Home'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import Hero from './sections/Hero';
+import Promotion from './sections/Promotion';
+import Products from './sections/Products';
+import Foot from './sections/Foot';
+import ProductCard from './components/ProductCard';
 const router = createBrowserRouter(
   [
     {
@@ -12,7 +16,11 @@ const router = createBrowserRouter(
        element:
        <div>
         <Header/>
-        <ProductItems/> 
+        <Hero/>
+        <Promotion/>
+        <Products/>
+      
+        <Foot/>
         <Footer/> 
        </div>
     },
@@ -22,18 +30,24 @@ const router = createBrowserRouter(
       <div>
         <Header/>  
         <Cart/>
+        <Foot/>
         <Footer/>,  
       </div>
    },
-//    {
-//     path:"/Productitems",
-//     element: <div>
-//     <Header/>  
-//     <ProductItems/>  
-//   </div>  
-//  },
+   {
+    path:"/ProductItems",
+    element:
+    <div>
+      <Header/>  
+      <ProductItems/>
+      <Foot/>
+        <Footer/> 
+      ,  
+    </div>
+ },
   ]
 )
+
 function App() {
   return (
    <div>

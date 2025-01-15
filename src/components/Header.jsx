@@ -32,12 +32,13 @@ const Header = () => {
   }, []);
   const dispatch = useDispatch();
   return (
-    <header className="flex justify-center items-center sticky top-0 bg-white py-2">
+    <header className="flex justify-center items-center sticky top-0 z-10 bg-white py-2">
       <div className="flex justify-between w-[90%] p-5">
         <Link to="/">
           <img src={logo} alt="" className="h-7" />
         </Link>
         <nav className="flex gap-10 font-semibold text-lg cursor-pointer max-[1000px]:hidden">
+         <Link to="/ProductItems">
           <button
             onClick={() => {
               setActive(false)
@@ -47,7 +48,7 @@ const Header = () => {
           >
             All product{" "}
           </button>
-
+          </Link>
           {categories.map((category, i) => (
             <button
               onClick={() => {

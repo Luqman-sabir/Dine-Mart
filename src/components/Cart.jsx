@@ -4,7 +4,7 @@ import { RiShoppingBagLine } from "react-icons/ri";
 const Cart = () => {
     const cartItems = useSelector((state)=>state.sliceData.data)
   return (
-    <section className="flex justify-center h-screen">
+    <section className="flex justify-center  ">
 
     <div className="w-[80%]">
         <h1 className=" text-2xl font-bold max-[600px]:text-xl">Shopping Cart</h1>
