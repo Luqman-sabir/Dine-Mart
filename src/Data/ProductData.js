@@ -2,7 +2,7 @@ export const ProductData = [
     {
      id:1,
      Name:"Brushed Raglan Sweatshirt",
-     Image:"/public/images/img1.png",
+     Image:"/images/img1.png",
      Type:"Sweater",
      Price:"800",
      Category:"Female",
@@ -10,7 +10,7 @@ export const ProductData = [
     {
         id:2,
         Name:"Cameryn Sash Tie Dress",
-        Image:"/public/images/img3.png",
+        Image:"/images/img3.png",
         Type:"Dress",
         Price:"7000",
         Category:"Female",
@@ -18,7 +18,7 @@ export const ProductData = [
        {
         id:3,
         Name:"Flex Sweatshirt",
-        Image:"/public/images/img2.png",
+        Image:"/images/img2.png",
         Type:"Dress",
         Price:"3000",
         Category:"Female",
@@ -26,7 +26,7 @@ export const ProductData = [
        {
         id:4,
         Name:"Flex Sweatpants",
-        Image:"/public/images/img7.png",
+        Image:"/images/img7.png",
         Type:"Pant",
         Price:"5000",
         Category:"Female",
@@ -34,7 +34,7 @@ export const ProductData = [
        {
         id:5,
         Name:"Pink Fleece Sweatpants",
-        Image:"/public/images/img8.png",
+        Image:"/images/img8.png",
         Type:"Shirt",
         Price:"1000",
         Category:"Male",
@@ -42,7 +42,7 @@ export const ProductData = [
        {
         id:6,
         Name:"Lite Sweatpants",
-        Image:"/public/images/img.png",
+        Image:"/images/img.png",
         Type:"Pant",
         Price:"2000",
         Category:"Kid",
@@ -50,7 +50,7 @@ export const ProductData = [
        {
         id:7,
         Name:"Imperial Alpaca Hoodie",
-        Image:"/public/images/img4.png",
+        Image:"/images/img4.png",
         Type:"Jacket",
         Price:"1800",
         Category:"Male",
@@ -58,7 +58,7 @@ export const ProductData = [
        {
         id:8,
         Name:"Flex Push Button Bomber",
-        Image:"/public/images/img5.png",
+        Image:"/images/img5.png",
         Type:"Jacket",
         Price:"2500",
         Category:"Male",
@@ -66,7 +66,7 @@ export const ProductData = [
        {
         id:9,
         Name:"Muscle Tank",
-        Image:"/public/images/img6.png",
+        Image:"/images/img6.png",
         Type:"T SHirt",
         Price:"1000",
         Category:"Female",
@@ -74,7 +74,7 @@ export const ProductData = [
        {
         id:10,
         Name:"Imperial Alpaca Hoodie",
-        Image:"/public/images/img9.png",
+        Image:"/images/img9.png",
         Type:"T SHirt",
         Price:"1000",
         Category:"Female",
