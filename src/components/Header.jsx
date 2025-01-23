@@ -16,7 +16,7 @@ const Header = () => {
   const cartItems = useSelector((state) => state.sliceData.data);
   const totalQty = cartItems.reduce((total, item) => total + item.qty, 0);
   const [categories, setCategories] = useState([]);
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(false);
   console.log("active",active);
   
 
