@@ -1,8 +1,10 @@
 import { useSelector } from "react-redux"
 import OrderCart from "./OrderCart"
+import { useNavigate } from "react-router-dom"
 
 
 const OrderDetail = () => {
+  const navigate = useNavigate()
     const cartItems = useSelector((state)=>state.sliceData.data)
     const totalQty = cartItems.reduce((total,item)=>total + item.qty ,0);
 
@@ -47,7 +49,7 @@ const OrderDetail = () => {
             
         </div>
         {/* button */}
-        <button className="text-center bg-[#212121] text-white p-2">Process to Checkout</button>
+        <button onClick={()=>navigate("/")} className="text-center bg-[#212121] text-white p-2">Process to Checkout</button>
       
         </div>
       </div>
