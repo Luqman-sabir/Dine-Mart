@@ -97,7 +97,8 @@ const Header = () => {
           <IoIosMenu />
           </button>
         )}
-        {active && <DropDown />}
+        {active && 
+        <DropDown active={active}setActive={setActive} />}
       </div>
     </header>
   );
